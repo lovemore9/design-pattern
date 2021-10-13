@@ -14,7 +14,16 @@ public class HungurySingleton {
     static {
         hangurySingleton = new HungurySingleton();
     }
-    private HungurySingleton() {};
+
+    /**
+     * 该方法是防止通过反射生成其他对象，违背单例原则
+     * @return
+     */
+    private HungurySingleton() {
+        if (hangurySingleton != null) {
+            throw new RuntimeException("单例构造器禁止反射调用");
+        }
+    };
     public static HungurySingleton getInstance() {
         return hangurySingleton;
     }

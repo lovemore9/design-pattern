@@ -18,5 +18,9 @@ public class StaticInnerClassSingleton {
         return InnerClass.staticInnerClassSingleton;
     }
 
-    private StaticInnerClassSingleton() {};
+    private StaticInnerClassSingleton() {
+        if (InnerClass.staticInnerClassSingleton != null) {
+            throw new RuntimeException("单例构造器禁止反射调用");
+        }
+    };
 }
