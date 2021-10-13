@@ -11,7 +11,7 @@ package com.learn.design.principle.creatinal.factorymethod;
  */
 public class TestClient {
     public static void main(String[] args) {
-        VideoFactory videoFactory = new JavaVideoFactory();
+        VideoFactory videoFactory = new PythonVideoFactory();
         Video video = videoFactory.getVideo();
         video.produce();
     }
