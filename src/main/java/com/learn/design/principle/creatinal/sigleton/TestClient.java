@@ -16,10 +16,11 @@ public class TestClient {
     public static void main(String[] args) {
         //LazySingleton instance = LazySingleton.getInstance();
         //log .info(instance.toString());
-        Thread t1 = new Thread(new T());
-        Thread t2 = new Thread(new T());
-        t1.start();
-        t2.start();
-        log.info("启动成功");
+        //Thread t1 = new Thread(new T());
+        //Thread t2 = new Thread(new T());
+        //t1.start();
+        //t2.start();
+        //log.info("启动成功");
+        EnumInstance.getInstance().printTest();
     }
 }
