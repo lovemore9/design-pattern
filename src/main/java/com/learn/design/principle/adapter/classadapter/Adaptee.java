@@ -1,4 +1,4 @@
-package com.learn.design.principle.classadapter;
+package com.learn.design.principle.adapter.classadapter;
 
 import lombok.extern.slf4j.Slf4j;
 
