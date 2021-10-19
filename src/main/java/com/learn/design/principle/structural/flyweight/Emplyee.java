@@ -1,4 +1,4 @@
-package com.learn.design.principle.flyweight;
+package com.learn.design.principle.structural.flyweight;
 
 /**
  * 类简要说明

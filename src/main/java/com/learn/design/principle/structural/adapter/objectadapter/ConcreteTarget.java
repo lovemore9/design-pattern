@@ -1,6 +1,6 @@
-package com.learn.design.principle.adapter.objectadapter;
+package com.learn.design.principle.structural.adapter.objectadapter;
 
-import com.learn.design.principle.adapter.classadapter.Target;
+import com.learn.design.principle.structural.adapter.classadapter.Target;
 import lombok.extern.slf4j.Slf4j;
 
 /**

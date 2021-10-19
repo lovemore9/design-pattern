@@ -1,4 +1,6 @@
-package com.learn.design.principle.flyweight;
+package com.learn.design.principle.structural.flyweight;
+
+import java.util.Random;
 
 /**
  * 类简要说明
@@ -14,7 +16,9 @@ public class TestClient {
 
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            String department = departments[(int) Math.random() * departments.length];
+            Random random = new Random();
+            int count = random.nextInt(departments.length);
+            String department = departments[count];
             Manager manager = (Manager) EmplyeeFactory.getManager(department);
             manager.setReportContent("作报告");
             manager.report();

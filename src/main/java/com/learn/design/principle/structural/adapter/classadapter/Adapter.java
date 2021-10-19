@@ -1,4 +1,4 @@
-package com.learn.design.principle.adapter.classadapter;
+package com.learn.design.principle.structural.adapter.classadapter;
 
 /**
  * 类简要说明

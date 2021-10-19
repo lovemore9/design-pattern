@@ -1,4 +1,4 @@
-package com.learn.design.principle.flyweight;
+package com.learn.design.principle.structural.flyweight;
 
 import lombok.extern.slf4j.Slf4j;
 
