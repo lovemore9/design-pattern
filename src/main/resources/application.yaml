@@ -1,0 +1,10 @@
+# 开启所有actuator端口
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        # include: health, info, xxx
