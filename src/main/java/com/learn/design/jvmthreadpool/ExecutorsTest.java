@@ -21,6 +21,9 @@ public class ExecutorsTest {
             @Override
             public void run() {
                 System.out.println("ExecutorsTest.run");
+                System.out.println("ExecutorsTest.run");
+                System.out.println("ExecutorsTest.run");
+                System.out.println("ExecutorsTest.run");
             }
         });
 
