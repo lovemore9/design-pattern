@@ -15,4 +15,8 @@ public class Test {
         WalkBird walkBird = new WalkBird();
         walkBird.mainMoveMode("鸵鸟");
     }
+
+    public void test01() {
+
+    }
 }
